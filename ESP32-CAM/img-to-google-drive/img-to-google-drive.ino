@@ -1,12 +1,12 @@
 //Connect to WiFi
-const char* ssid     = "WIFI-45-7F-2";   //your network SSID
-const char* password = "0935515151";   //your network password
+const char* ssid     = "xxxx";   //your network SSID
+const char* password = "xxxx";   //your network password
 
 //Connect to ESP32 Camera if needed
 const char* apssid = "ESP32-CAM";
 const char* appassword = "12345678";         //AP password require at least 8 characters.
 
-String myScript = "/macros/s/AKfycby_Rh0XcFIvjh3fLsHqDgugfLLuISnDUQNcUbb8rlp7tV8UXyq2pT_OV98mFwOaMW9z/exec";    //Create your Google Apps Script and replace the "myScript" path.
+String myScript = "/macros/s/xxxx/exec";    //Create your Google Apps Script and replace the "myScript" path.
 String myLineNotifyToken = "myToken=";    //Line Notify Token. You can set the value of xxxxxxxxxx empty if you don't want to send picture to Linenotify.
 String myFoldername = "&myFoldername=ESP32-CAM";
 String myFilename = "&myFilename=ESP32-CAM.jpg";
